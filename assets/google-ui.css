@@ -1,0 +1,202 @@
+/* NEXUS Search — consistent Google-inspired PC UI, free/open sources */
+html:has(body.nexus-google-ui),body.nexus-google-ui{background:#fff!important;color:#202124!important;color-scheme:light!important}
+body.nexus-google-ui .topbar{background:#fff!important;color:#5f6368!important;border-bottom:1px solid #dadce0!important;box-shadow:none!important;backdrop-filter:none!important}
+body.nexus-google-ui .brand,body.nexus-google-ui .toplinks a{color:#5f6368!important}
+body.nexus-google-ui .brand b{color:#4285f4!important}
+body.nexus-google-ui .toplinks a:hover,body.nexus-google-ui .toplinks a.active{background:#f1f3f4!important;color:#202124!important}
+body.nexus-google-ui:not(.image-mode) .page{width:100%!important;max-width:1280px!important;margin:0 auto!important;padding:0 32px 52px!important}
+body.nexus-google-ui:not(.image-mode) .hero{width:100%!important;min-height:0!important;height:auto!important;padding:26px 0 12px!important;display:flex!important;flex-direction:column!important;align-items:flex-start!important;justify-content:flex-start!important;text-align:left!important;gap:0!important}
+body.nexus-google-ui:not(.has-query):not(.image-mode) .hero{min-height:350px!important;justify-content:center!important;align-items:center!important;text-align:center!important;padding:48px 0 25px!important}
+body.nexus-google-ui .mark{color:#4285f4!important;font-size:58px!important;letter-spacing:-2px!important;font-weight:650!important;line-height:1.12!important}
+body.nexus-google-ui.has-query:not(.image-mode) .mark{display:none!important}
+body.nexus-google-ui .searchbox{width:min(740px,100%)!important;max-width:740px!important;margin:0!important;flex:0 1 auto!important}
+body.nexus-google-ui:not(.has-query):not(.image-mode) .searchbox{width:min(640px,92vw)!important;max-width:640px!important;margin:23px auto 0!important}
+body.nexus-google-ui .searchrow{height:48px!important;border:1px solid #dfe1e5!important;border-radius:28px!important;background:#fff!important;box-shadow:0 1px 6px #20212420!important;padding:0 16px!important}
+body.nexus-google-ui .searchrow:hover,body.nexus-google-ui .searchrow:focus-within{border-color:transparent!important;box-shadow:0 1px 8px #20212435!important;background:#fff!important}
+body.nexus-google-ui .searchrow input{color:#202124!important;caret-color:#4285f4!important;font-size:16px!important}
+body.nexus-google-ui .searchrow input::placeholder{color:#777b80!important}
+body.nexus-google-ui .searchicon,body.nexus-google-ui .search-action{color:#70757a!important}
+body.nexus-google-ui .search-action:hover{background:#f1f3f4!important;color:#202124!important}
+body.nexus-google-ui .suggest,body.nexus-google-ui .search-filter-menu,body.nexus-google-ui .image-filter-menu{background:#fff!important;border-color:#dadce0!important;color:#202124!important;box-shadow:0 7px 22px #20212422!important}
+body.nexus-google-ui .suggest div,body.nexus-google-ui .search-filter-menu button,body.nexus-google-ui .image-filter-menu button{color:#3c4043!important}
+body.nexus-google-ui .suggest div:hover,body.nexus-google-ui .search-filter-menu button:hover,body.nexus-google-ui .search-filter-menu button.chosen,body.nexus-google-ui .image-filter-menu button:hover{background:#f1f3f4!important;color:#202124!important}
+body.nexus-google-ui .home-tabs,body.nexus-google-ui .image-nav{display:flex!important;align-items:stretch!important;justify-content:flex-start!important;gap:0!important;width:100%!important;max-width:740px!important;min-height:48px!important;margin:12px 0 0!important;padding:0!important;border-bottom:1px solid #dadce0!important;overflow:visible!important}
+body.nexus-google-ui:not(.has-query):not(.image-mode) .home-tabs{justify-content:center!important;margin-top:22px!important}
+body.nexus-google-ui .home-tabs a,body.nexus-google-ui .image-nav a{position:relative!important;display:flex!important;align-items:center!important;justify-content:center!important;gap:7px!important;flex:1 1 0!important;min-width:0!important;width:auto!important;padding:0 11px!important;height:48px!important;border-radius:0!important;background:transparent!important;border:0!important;color:#5f6368!important;text-decoration:none!important;font-size:13px!important;white-space:nowrap!important}
+body.nexus-google-ui .home-tabs a svg,body.nexus-google-ui .image-nav a svg{width:16px!important;height:16px!important}
+body.nexus-google-ui .home-tabs a:hover,body.nexus-google-ui .image-nav a:hover{color:#202124!important;background:#f8f9fa!important}
+body.nexus-google-ui .home-tabs a.active,body.nexus-google-ui .image-nav a.selected{color:#1a73e8!important;font-weight:600!important;background:transparent!important}
+body.nexus-google-ui .home-tabs a.active:after,body.nexus-google-ui .image-nav a.selected:after{content:"";position:absolute;bottom:-1px;left:15%;right:15%;height:3px;border-radius:3px 3px 0 0;background:#1a73e8!important}
+body.nexus-google-ui .search-filters{display:flex!important;flex-wrap:wrap!important;align-items:center!important;gap:8px!important;margin:12px 0 6px!important;padding:0!important}
+body.nexus-google-ui .filter-caption,body.nexus-google-ui .filter-summary{color:#70757a!important}
+body.nexus-google-ui .search-filter,body.nexus-google-ui .image-filter{height:34px!important;border:1px solid #dadce0!important;border-radius:18px!important;background:#fff!important;color:#3c4043!important;box-shadow:none!important;font-size:12px!important}
+body.nexus-google-ui .search-filter.active,body.nexus-google-ui .image-filter.active{background:#e8f0fe!important;border-color:#d2e3fc!important;color:#174ea6!important}
+body.nexus-google-ui .results{width:100%!important;max-width:1000px!important;margin:0!important;padding:16px 0 0!important;color:#202124!important}
+body.nexus-google-ui .meta,body.nexus-google-ui .result .crumb,body.nexus-google-ui .result .date,body.nexus-google-ui .score{color:#70757a!important}
+body.nexus-google-ui .result{max-width:780px!important;border-bottom:0!important;padding:12px 0 15px!important;background:transparent!important;color:#202124!important}
+body.nexus-google-ui .result h3{margin:3px 0 5px!important;font-size:20px!important;font-weight:400!important;line-height:1.35!important}
+body.nexus-google-ui .result h3 a,body.nexus-google-ui .newscard h3 a,body.nexus-google-ui .video-result h3 a{color:#1a0dab!important;font-weight:400!important}
+body.nexus-google-ui .result h3 a:hover,body.nexus-google-ui .newscard h3 a:hover,body.nexus-google-ui .video-result h3 a:hover{color:#1a0dab!important;text-decoration:underline!important}
+body.nexus-google-ui .result p,body.nexus-google-ui .newscard p,body.nexus-google-ui .video-result p{color:#4d5156!important;font-size:14px!important;line-height:1.58!important}
+body.nexus-google-ui .result .pill{background:#f1f3f4!important;color:#5f6368!important;border:0!important}
+body.nexus-google-ui .empty,body.nexus-google-ui .image-empty{background:#fff!important;border:1px solid #dadce0!important;border-radius:12px!important;color:#5f6368!important}
+body.nexus-google-ui .chip{background:#fff!important;border:1px solid #dadce0!important;color:#3c4043!important}
+body.nexus-google-ui .mixed-section{background:#fff!important;border:0!important;border-bottom:1px solid #dadce0!important;border-radius:0!important;color:#202124!important;padding:18px 0!important}
+body.nexus-google-ui .mixed-section-head h2{color:#202124!important;font-size:20px!important;font-weight:500!important}
+body.nexus-google-ui .mixed-section-head a{color:#1a73e8!important}
+body.nexus-google-ui .mixed-image-card,body.nexus-google-ui .mixed-video-card,body.nexus-google-ui .mixed-news-card{background:#fff!important;border:1px solid #e8eaed!important;border-radius:9px!important;color:#202124!important}
+body.nexus-google-ui .mixed-image-card span,body.nexus-google-ui .mixed-video-card b,body.nexus-google-ui .mixed-news-card b{color:#202124!important}
+body.nexus-google-ui .mixed-news-card p,body.nexus-google-ui .mixed-news-card small{color:#5f6368!important}
+body.nexus-google-ui .mixed-video-thumb{background:#f1f3f4!important;color:#1a73e8!important}
+body.nexus-google-ui .video-result{background:#fff!important;border:0!important;border-bottom:1px solid #dadce0!important;color:#202124!important}
+body.nexus-google-ui .video-result-domain{color:#5f6368!important}
+body.nexus-google-ui .video-result-art{border:1px solid #e8eaed!important;border-radius:12px!important;background-color:#f8f9fa!important;color:#1a73e8!important}
+body.nexus-google-ui .footer{color:#70757a!important}
+body.nexus-google-ui.image-mode,html:has(body.nexus-google-ui.image-mode){background:#fff!important;color:#202124!important;color-scheme:light!important}
+body.nexus-google-ui.image-mode .page{width:100%!important;max-width:1480px!important;margin:0 auto!important;padding:18px 26px 48px!important}
+body.nexus-google-ui.image-mode .hero{display:flex!important;flex-direction:row!important;align-items:center!important;justify-content:flex-start!important;gap:24px!important;min-height:0!important;padding:10px 0 0!important;text-align:left!important}
+body.nexus-google-ui.image-mode .mark{display:block!important;flex:0 0 auto!important;font-size:31px!important;color:#4285f4!important;letter-spacing:-1px!important;line-height:1!important}
+body.nexus-google-ui.image-mode .searchbox{flex:1 1 600px!important;width:auto!important;max-width:740px!important;margin:0!important}
+body.nexus-google-ui.image-mode .image-tools,body.nexus-google-ui.image-mode .image-tools.show{display:flex!important;flex-direction:column!important;align-items:stretch!important;width:100%!important;max-width:none!important;margin-top:4px!important;padding-top:0!important;gap:0!important}
+body.nexus-google-ui.image-mode .image-status,body.nexus-google-ui.image-mode .image-result-meta,body.nexus-google-ui.image-mode .image-more-note{color:#70757a!important}
+body.nexus-google-ui.image-mode .imagegrid{width:100%!important;columns:5 200px!important;column-gap:18px!important}
+body.nexus-google-ui.image-mode .imagecard{background:#fff!important;border:0!important;border-radius:8px!important;box-shadow:none!important;break-inside:avoid!important;margin:0 0 20px!important}
+body.nexus-google-ui.image-mode .imagecard .img-photo{background:#f1f3f4!important;border-radius:9px!important;overflow:hidden!important}
+body.nexus-google-ui.image-mode .imagecard .img-title-link{color:#202124!important;font-size:13px!important}
+body.nexus-google-ui.image-mode .imagecard .img-source{color:#70757a!important;font-size:11px!important}
+body.nexus-google-ui.image-mode .imagecard .img-origin{display:none!important}
+body.nexus-google-ui.image-mode .img-save-action{background:#fff!important;color:#5f6368!important;border:1px solid #dadce0!important}
+body.nexus-google-ui.image-mode .saved-images-toggle{background:#fff!important;border-color:#dadce0!important;color:#3c4043!important}
+body.nexus-google-ui.image-mode .preview-panel,body.nexus-google-ui.image-mode .saved-images-dialog{background:#fff!important;color:#202124!important;border-color:#dadce0!important}
+body.nexus-google-ui.image-mode .preview-details h2,body.nexus-google-ui.image-mode .saved-images-dialog h2{color:#202124!important}
+body.nexus-google-ui.image-mode .preview-note,body.nexus-google-ui.image-mode .preview-domain{color:#5f6368!important}
+body.nexus-google-ui.image-mode .image-tools .image-nav{grid-template-columns:repeat(5,minmax(0,1fr))!important;max-width:740px!important}
+body.nexus-google-ui.image-mode .image-nav a{color:#5f6368!important}
+body.nexus-google-ui.image-mode .image-nav a.selected{color:#1a73e8!important}
+body.nexus-google-ui.map-mode .page{max-width:1480px!important}
+body.nexus-google-ui.map-mode .hero{padding-top:16px!important}
+body.nexus-google-ui.map-mode .mark{font-size:31px!important}
+body.nexus-google-ui.nx-os-page.nx-view-search.has-query .page{width:calc(100% - 86px)!important;margin-left:86px!important;margin-right:0!important;padding:24px clamp(12px,1.4vw,26px) 58px!important;max-width:none!important}
+body.nexus-google-ui.nx-os-page.nx-view-search.has-query .hero{min-height:0!important;height:auto!important;padding:8px 0 12px!important;align-items:stretch!important;justify-content:flex-start!important;text-align:left!important}
+body.nexus-google-ui.nx-os-page.nx-view-search.has-query .hero>.home-tabs{max-width:740px!important;margin:12px 0 0!important}
+body.nexus-google-ui.nx-os-page.image-mode .page{width:calc(100% - 86px)!important;margin-left:86px!important;margin-right:0!important;padding:24px clamp(12px,1.4vw,26px) 58px!important;max-width:none!important}
+body.nexus-google-ui.nx-os-page.image-mode .hero{padding:8px 0 10px!important}
+body.nexus-google-ui .nexus-map-empty{max-width:740px;margin:38px auto;padding:34px;border:1px solid #e8eaed;border-radius:18px;text-align:center;color:#5f6368;background:#fff}
+body.nexus-google-ui .nexus-map-empty h2{font-size:24px;font-weight:500;color:#202124;margin:8px 0}
+body.nexus-google-ui .nexus-map-empty p{margin:0 auto 18px;max-width:520px;line-height:1.6}
+body.nexus-google-ui .nexus-map-empty-icon{font-size:42px;color:#4285f4;line-height:1.25}
+body.nexus-google-ui .nexus-map-examples{display:flex;justify-content:center;flex-wrap:wrap;gap:8px}
+body.nexus-google-ui .nexus-map-examples button{border:1px solid #dadce0;border-radius:18px;background:#fff;color:#3c4043;padding:8px 13px;cursor:pointer}
+body.nexus-google-ui .nexus-map-examples button:hover{background:#f8f9fa;border-color:#1a73e8;color:#1a73e8}
+body.nexus-google-ui .nexus-map-layout{display:grid;grid-template-columns:minmax(285px,370px) minmax(0,1fr);gap:18px;align-items:start;margin:6px 0 20px}
+body.nexus-google-ui .nexus-map-list{min-width:0}
+body.nexus-google-ui .nexus-map-head h2{font-size:21px;font-weight:500;line-height:1.3;margin:0 0 5px;color:#202124}
+body.nexus-google-ui .nexus-map-head p{font-size:12px;color:#70757a;margin:0 0 14px}
+body.nexus-google-ui .nexus-map-place{border:1px solid #e8eaed;border-radius:12px;background:#fff;padding:12px 13px;margin:0 0 9px;transition:border-color .14s,box-shadow .14s}
+body.nexus-google-ui .nexus-map-place:hover,body.nexus-google-ui .nexus-map-place.selected{border-color:#8ab4f8;box-shadow:0 1px 5px #20212412;background:#fbfdff}
+body.nexus-google-ui .nexus-map-card-button{display:block;width:100%;padding:0;border:0;background:transparent;text-align:left;cursor:pointer;color:#202124}
+body.nexus-google-ui .nexus-map-card-button strong{display:flex;align-items:flex-start;gap:8px;font-size:14px;font-weight:600;line-height:1.4;color:#202124}
+body.nexus-google-ui .nexus-map-number{display:inline-grid;place-items:center;flex:none;width:21px;height:21px;border-radius:50%;font-size:11px;background:#e8f0fe;color:#1a73e8}
+body.nexus-google-ui .place-address{display:block;font-size:12px;line-height:1.45;margin:6px 0 0 29px;color:#5f6368}
+body.nexus-google-ui .place-category{display:block;font-size:11px;margin:6px 0 0 29px;color:#1a73e8}
+body.nexus-google-ui .nexus-map-open{display:inline-block;color:#1a73e8;text-decoration:none;font-size:11px;margin:8px 0 0 29px}
+body.nexus-google-ui .nexus-map-open:hover{text-decoration:underline}
+body.nexus-google-ui .nexus-map-panel{position:sticky;top:88px;min-width:0;border:1px solid #dadce0;border-radius:14px;overflow:hidden;background:#f8f9fa}
+body.nexus-google-ui #nexusMapCanvas{width:100%;height:min(70vh,690px);min-height:420px;background:#eef2f6}
+body.nexus-google-ui .nexus-map-credit{padding:8px 11px;background:#fff;color:#70757a;font-size:10px;border-top:1px solid #e8eaed}
+body.nexus-google-ui .nexus-map-marker{background:transparent!important;border:0!important}
+body.nexus-google-ui .nexus-map-marker span{display:block;width:22px;height:22px;border:3px solid white;border-radius:50% 50% 50% 0;transform:rotate(-45deg);background:#1a73e8;box-shadow:0 2px 5px #0004}
+body.nexus-google-ui .nexus-map-popup b{font-size:13px;color:#202124}
+body.nexus-google-ui .nexus-map-popup small{display:block;margin-top:5px;color:#5f6368;max-width:240px}
+body.nexus-google-ui .nexus-map-popup a{display:inline-block;margin-top:7px;color:#1a73e8;font-size:12px}
+body.nexus-google-ui .nexus-map-error{border:1px solid #f1d6a8;background:#fff8e5;border-radius:12px;color:#684f1e;padding:15px;margin:15px 0}
+@media(max-width:860px){body.nexus-google-ui:not(.image-mode) .page{padding-left:18px!important;padding-right:18px!important}body.nexus-google-ui .nexus-map-layout{grid-template-columns:minmax(0,1fr)}body.nexus-google-ui .nexus-map-panel{position:relative;top:auto;grid-row:1}body.nexus-google-ui #nexusMapCanvas{height:48vh;min-height:320px}body.nexus-google-ui .nexus-map-list{grid-row:2}}
+@media(max-width:650px){body.nexus-google-ui .home-tabs,body.nexus-google-ui .image-nav{gap:0!important;overflow-x:auto!important;max-width:100%!important}body.nexus-google-ui .home-tabs a,body.nexus-google-ui .image-nav a{padding:0 6px!important;gap:4px!important;font-size:11px!important}body.nexus-google-ui .home-tabs a svg,body.nexus-google-ui .image-nav a svg{width:14px!important;height:14px!important}body.nexus-google-ui:not(.has-query):not(.image-mode) .hero{min-height:305px!important;padding-top:28px!important}body.nexus-google-ui .mark{font-size:44px!important}body.nexus-google-ui.image-mode .page{padding:10px 12px 38px!important}body.nexus-google-ui.image-mode .hero{gap:12px!important;flex-wrap:wrap!important}body.nexus-google-ui.image-mode .mark{flex:0 0 100%!important;font-size:27px!important}body.nexus-google-ui.image-mode .searchbox{flex:0 0 100%!important;width:100%!important}body.nexus-google-ui .nexus-map-layout{gap:12px}body.nexus-google-ui .nexus-map-empty{padding:24px 16px}body.nexus-google-ui #nexusMapCanvas{height:43vh;min-height:280px}}
+
+/* Higher-specificity final override for legacy NEXUS OS dark search selectors. */
+body.nexus-google-ui.has-query:not(.image-mode),html:has(body.nexus-google-ui.has-query:not(.image-mode)){background:#fff!important;color:#202124!important;color-scheme:light!important}
+body.nexus-google-ui.has-query:not(.image-mode) .topbar{background:#fff!important;border-bottom:1px solid #dadce0!important;color:#5f6368!important;box-shadow:none!important}
+body.nexus-google-ui.has-query:not(.image-mode) .brand,body.nexus-google-ui.has-query:not(.image-mode) .toplinks a{color:#5f6368!important}
+body.nexus-google-ui.has-query:not(.image-mode) .page{background:#fff!important;color:#202124!important}
+body.nexus-google-ui.has-query:not(.image-mode) .searchrow{background:#fff!important;border:1px solid #dfe1e5!important;box-shadow:0 1px 6px #20212420!important}
+body.nexus-google-ui.has-query:not(.image-mode) .searchrow:focus-within{background:#fff!important;border-color:transparent!important;box-shadow:0 1px 8px #20212435!important}
+body.nexus-google-ui.has-query:not(.image-mode) .searchrow input{color:#202124!important}
+body.nexus-google-ui.has-query:not(.image-mode) .searchrow input::placeholder{color:#777b80!important}
+body.nexus-google-ui.has-query:not(.image-mode) .searchicon,body.nexus-google-ui.has-query:not(.image-mode) .search-action{color:#70757a!important}
+body.nexus-google-ui.has-query:not(.image-mode) .home-tabs{background:#fff!important;border-bottom:1px solid #dadce0!important}
+body.nexus-google-ui.has-query:not(.image-mode) .home-tabs a{background:transparent!important;color:#5f6368!important;border-color:transparent!important}
+body.nexus-google-ui.has-query:not(.image-mode) .home-tabs a.active{background:transparent!important;color:#1a73e8!important;border-color:transparent!important}
+body.nexus-google-ui.has-query:not(.image-mode) .home-tabs a.active:after{background:#1a73e8!important}
+body.nexus-google-ui.has-query:not(.image-mode) .search-filters{background:#fff!important;color:#5f6368!important}
+body.nexus-google-ui.has-query:not(.image-mode) .search-filter{background:#fff!important;border-color:#dadce0!important;color:#3c4043!important;box-shadow:none!important}
+body.nexus-google-ui.has-query:not(.image-mode) .search-filter.active{background:#e8f0fe!important;border-color:#d2e3fc!important;color:#174ea6!important}
+body.nexus-google-ui.has-query:not(.image-mode) .filter-caption,body.nexus-google-ui.has-query:not(.image-mode) .filter-summary{color:#70757a!important}
+body.nexus-google-ui.has-query:not(.image-mode) .results,body.nexus-google-ui.has-query:not(.image-mode) .result,body.nexus-google-ui.has-query:not(.image-mode) .mixed-results{background:#fff!important;color:#202124!important}
+body.nexus-google-ui.has-query:not(.image-mode) .result{border-color:transparent!important}
+body.nexus-google-ui.has-query:not(.image-mode) .result .crumb,body.nexus-google-ui.has-query:not(.image-mode) .meta{color:#70757a!important}
+body.nexus-google-ui.has-query:not(.image-mode) .result h3 a{color:#1a0dab!important}
+body.nexus-google-ui.has-query:not(.image-mode) .result p{color:#4d5156!important}
+body.nexus-google-ui.has-query:not(.image-mode) .mixed-section,body.nexus-google-ui.has-query:not(.image-mode) .mixed-news-card,body.nexus-google-ui.has-query:not(.image-mode) .mixed-image-card,body.nexus-google-ui.has-query:not(.image-mode) .mixed-video-card{background:#fff!important;color:#202124!important;border-color:#e8eaed!important}
+body.nexus-google-ui.image-mode,html:has(body.nexus-google-ui.image-mode){background:#fff!important;color:#202124!important;color-scheme:light!important}
+body.nexus-google-ui.image-mode .topbar{background:#fff!important;border-bottom:1px solid #dadce0!important}
+body.nexus-google-ui.image-mode .searchrow{background:#fff!important;border-color:#dfe1e5!important;box-shadow:0 1px 6px #20212420!important}
+body.nexus-google-ui.image-mode .searchrow input{color:#202124!important}
+body.nexus-google-ui.image-mode .image-nav{background:#fff!important;border-bottom:1px solid #dadce0!important}
+body.nexus-google-ui.image-mode .image-nav a{color:#5f6368!important}
+body.nexus-google-ui.image-mode .image-nav a.selected{color:#1a73e8!important;background:#fff!important}
+body.nexus-google-ui.image-mode .image-refinements{background:#fff!important}
+body.nexus-google-ui.image-mode .image-filter{color:#3c4043!important;background:#fff!important;border-color:#dadce0!important}
+body.nexus-google-ui.image-mode .imagecard{background:#fff!important;color:#202124!important;border:0!important;box-shadow:none!important}
+body.nexus-google-ui.image-mode .imagecard .img-title-link{color:#202124!important}
+body.suitebody.nexus-google-ui,html:has(body.suitebody.nexus-google-ui){background:#fff!important;color:#202124!important;color-scheme:light!important}
+body.suitebody.nexus-google-ui .suitewrap{background:#fff!important;color:#202124!important}
+body.suitebody.nexus-google-ui .nh-search-tabs{background:#fff!important;border-color:#dadce0!important}
+body.suitebody.nexus-google-ui .nh-search-tabs a{color:#5f6368!important;background:#fff!important}
+body.suitebody.nexus-google-ui .nh-search-tabs a.active{color:#1a73e8!important}
+body.suitebody.nexus-google-ui .nh-search{background:#fff!important;border-color:#dfe1e5!important;box-shadow:0 1px 5px #2021241a!important}
+body.suitebody.nexus-google-ui .nh-search input{color:#202124!important}
+body.suitebody.nexus-google-ui .nh-cat{background:#fff!important;color:#3c4043!important;border-color:#dadce0!important}
+body.suitebody.nexus-google-ui .nh-cat.active{background:#e8f0fe!important;color:#174ea6!important;border-color:#d2e3fc!important}
+
+/* Finish matching the Google surface on legacy high-specificity result cards. */
+body.nexus-google-ui.has-query:not(.image-mode) .video-result{background:#fff!important;color:#202124!important;border:0!important;border-bottom:1px solid #dadce0!important;box-shadow:none!important}
+body.nexus-google-ui.has-query:not(.image-mode) .video-result-domain{color:#5f6368!important}
+body.nexus-google-ui.has-query:not(.image-mode) .video-result h3 a{color:#1a0dab!important}
+body.nexus-google-ui.has-query:not(.image-mode) .video-result p{color:#4d5156!important}
+body.nexus-google-ui.has-query:not(.image-mode) .video-result-art{background-color:#f8f9fa!important;border:1px solid #e8eaed!important;color:#1a73e8!important}
+body.nexus-google-ui.image-mode .search-filters{display:none!important}
+body.nexus-google-ui.image-mode .image-tools .image-nav{display:none!important}
+body.nexus-google-ui.image-mode .image-refinements{display:flex!important;align-items:center!important;flex-wrap:wrap!important;gap:8px!important;padding:6px 0 12px!important}
+body.nexus-google-ui.image-mode .image-filter-wrap{position:relative!important}
+body.nexus-google-ui.image-mode .image-filter{height:36px!important;padding:0 13px!important;border-radius:18px!important;background:#fff!important;border:1px solid #dadce0!important;color:#3c4043!important;font-size:12px!important}
+body.nexus-google-ui.image-mode .image-filter.active,body.nexus-google-ui.image-mode .image-filter.open{background:#e8f0fe!important;border-color:#d2e3fc!important;color:#174ea6!important}
+body.nexus-google-ui.image-mode .image-filter-menu{background:#fff!important;border:1px solid #dadce0!important;border-radius:12px!important;box-shadow:0 5px 20px #20212426!important;color:#202124!important}
+body.nexus-google-ui.image-mode .image-filter-menu button{color:#3c4043!important;background:#fff!important}
+body.nexus-google-ui.image-mode .image-filter-menu button:hover,body.nexus-google-ui.image-mode .image-filter-menu button.chosen{background:#e8f0fe!important;color:#174ea6!important}
+body.nexus-google-ui.image-mode .image-related{display:flex!important;flex-wrap:wrap!important;gap:7px!important;padding:12px 0!important;color:#70757a!important}
+body.nexus-google-ui.image-mode .image-related button{background:#fff!important;border:1px solid #dadce0!important;border-radius:18px!important;padding:7px 12px!important;color:#3c4043!important;font-size:12px!important}
+body.nexus-google-ui.image-mode .image-related button:hover{background:#f8f9fa!important;border-color:#1a73e8!important;color:#1a73e8!important}
+body.nexus-google-ui.image-mode .saved-images-toggle{margin:8px 0!important}
+body.suitebody.nexus-google-ui .nh-feature,body.suitebody.nexus-google-ui .nh-story,body.suitebody.nexus-google-ui .nh-card{background:#fff!important;color:#202124!important;border-color:#dadce0!important;box-shadow:none!important}
+body.suitebody.nexus-google-ui .nh-feature-body,body.suitebody.nexus-google-ui .nh-card-body{background:#fff!important;color:#202124!important}
+body.suitebody.nexus-google-ui .nh-feature h2,body.suitebody.nexus-google-ui .nh-story h3,body.suitebody.nexus-google-ui .nh-card h3{color:#1a0dab!important}
+body.suitebody.nexus-google-ui .nh-feature h2 a,body.suitebody.nexus-google-ui .nh-story h3 a,body.suitebody.nexus-google-ui .nh-card h3 a{color:#1a0dab!important}
+body.suitebody.nexus-google-ui .nh-card-art,body.suitebody.nexus-google-ui .nh-miniart{background:#f8f9fa!important;color:#5f6368!important}
+body.suitebody.nexus-google-ui .nh-feature-art{background:#f1f3f4!important;color:#5f6368!important}
+body.suitebody.nexus-google-ui .nh-desc,body.suitebody.nexus-google-ui .nh-card p,body.suitebody.nexus-google-ui .nh-footnote{color:#5f6368!important}
+body.suitebody.nexus-google-ui .nh-title h1,body.suitebody.nexus-google-ui .nh-section h2{color:#202124!important}
+body.suitebody.nexus-google-ui .nh-time,body.suitebody.nexus-google-ui .nh-meta,body.suitebody.nexus-google-ui #updated{color:#70757a!important}
+body.suitebody.nexus-google-ui .nh-section{border-bottom:1px solid #e8eaed!important}
+
+/* Final PC shell alignment: search controls stay below the fixed NEXUS header. */
+body.nexus-google-ui.nx-os-page.nx-view-search.has-query .page{padding-top:78px!important}
+body.nexus-google-ui.nx-os-page.nx-view-search.has-query .hero{padding-top:10px!important}
+body.suitebody.nexus-google-ui .nh-search-tabs a.active:after{background:#1a73e8!important}
+body.suitebody.nexus-google-ui .nh-title p{color:#5f6368!important}
+body.suitebody.nexus-google-ui .nh-meta{color:#70757a!important}
+
+/* Google-like home: filters and recent search popup only appear when requested. */
+body.nexus-google-ui:not(.has-query):not(.image-mode):not(.map-mode) .search-filters{display:none!important}
+body.nexus-google-ui:not(.has-query):not(.image-mode):not(.map-mode) #savedImagesToggle{display:none!important}
+body.nexus-google-ui:not(.has-query):not(.image-mode):not(.map-mode) .hero{padding-bottom:36px!important}
+body.nexus-google-ui .searchbox:focus-within .suggest{z-index:100!important}

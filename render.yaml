@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: nexus-public-search-2026
+    runtime: node
+    plan: free
+    branch: main
+    buildCommand: npm install --omit=dev
+    startCommand: npm start
+    healthCheckPath: /healthz
+    autoDeploy: true
+    envVars:
+      - key: NEXUS_PUBLIC_MODE
+        value: "1"
+      - key: NODE_VERSION
+        value: "22.14.0"

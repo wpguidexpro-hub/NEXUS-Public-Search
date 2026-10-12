@@ -1,0 +1,13 @@
+{
+  "name": "nexus-public-search",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Public NEXUS Search web service with All, Images, Videos, Maps and News",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
